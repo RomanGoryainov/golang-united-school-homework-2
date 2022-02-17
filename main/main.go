@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println(square.CalcSquare(15.0, 4))
+	fmt.Println(square.CalcSquare(2.3, 0))
 }
