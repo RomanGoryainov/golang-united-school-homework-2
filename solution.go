@@ -15,7 +15,9 @@ type intCustomType int
 // CalcSquare(10.0, SidesCircle)
 
 func CalcSquare(sideLen float64, sidesNum intCustomType) float64 {
-	const SidesCircle, SidesTriangle, SidesSquare intCustomType = 0, 3, 4
+	const SidesCircle = 0
+	const SidesTriangle = 3
+	const SidesSquare = 4
 	sqrTriangle := (math.Sqrt(3) * sideLen * sideLen) / 4
 	sqrSquare := sideLen * sideLen
 	sqrCircle := math.Pi * sideLen * sideLen
